@@ -1,6 +1,4 @@
-$(document).ready(function(){
-
-  var config = {
+var config = {
     apiKey: "AIzaSyAZg6fUvvZe1TXJbjl5mk2Nsbf7JkJqWX4",
     authDomain: "tinder-gif-2.firebaseapp.com",
     databaseURL: "https://tinder-gif-2.firebaseio.com",
@@ -13,6 +11,8 @@ $(document).ready(function(){
 
   var database = firebase.database();
 
+
+$(document).ready(function(){
 
 $("#search").on('click',function(){
 
@@ -157,13 +157,15 @@ $(document).on("click", ".gif-images",function(){
         $("#gif-choice").css("visibility", "hidden");
 	});
 
-	$("#submit-btn").on("click", function(){
+	$("#submit-btn").on("click", function(event){
+		event.preventDefault();
 		usersName = $("#userName").val().trim();
 		zip = $("#location").val().trim();
 		sex = $("#gender").val().trim();
 //var profilePic = $("#choosing").val();
 		age = $("#age").val().trim();
 		activateFirebase();
+		location.href = location.href.replace("index.html","chat.html");
 	})
 
 

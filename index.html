@@ -14,7 +14,7 @@
 
 
 
-    <title>Tinder Giphy</title>
+    <title>GifMatch</title>
 
 	<link rel="icon" type="img" href="mahshid.png">
 
@@ -48,221 +48,112 @@
 
     <nav  id="top">
 
-        	<div class="animated fadeInLeft">Tinder Giphy</div>
+        	<div class="animated fadeInLeft">GifMatch</div>
 
     </nav>
 
-
-
-
-
-	 <!-- //submit form   I gave class="form-control" to all input-->
-
-
-
 	<!-- div for choosing gif -->
 
-	<div style="visibility: hidden" id="gifbox">dd</div>
+
+	<div style="visibility: hidden" id="gifbox"></div>
 
 	<form class="form-container" action="chat.html">
 
+
 	 	<div class="form-group">
-
 	 		 <h1 class="animated fadeInDown"> Find your match!&nbsp;<span class="glyphicon glyphicon-heart"></span></h1><br>
-
 	   		 <label for="userName" class="animated fadeInLeft">User Name</label>
-
 	   		 <input type="text" class="form-control" id="userName" placeholder="userName" class="form-control" required>
-
 	  	</div>
 
 		<div class="form-group">
-
 	   		 <label for="location" class="animated fadeInLeft">Zip Code</label>
-
 	   		 <input type="text" class="form-control" id="location" placeholder="location" class="form-control" required>
-
 	  	</div>
 
-	 	 <div class="form-group">
-
+	 	<div class="form-group">
 	   		 <label for="gif" class="animated fadeInLeft">Choose your Gif</label>
-
 	   		 <input type="text" class="form-control" id="gif" placeholder="Choose your Gif" class="form-control" required>
 
 
 
-	   	<button type="search" class="btn btn-default animated fadeInUp" id="search" >Choose gif
-	   	</button>
-	    	<button type="clear" class="btn btn-default animated fadeInUp" id="clear">Clear</button>
+	   		 <button type="search" class="btn btn-default animated fadeInUp" id="search" >Choose gif</button>
+	    	 <button type="clear" class="btn btn-default animated fadeInUp" id="clear">Clear</button>
 	  	</div>
 
-
-<!--
-	  	<div class="form-group" >
-	    	<label for="uploadImage" class="animated fadeInLeft">Upload Your Image</label>
-	    	<input type="file" id="choosing" class="form-control">
-	  	</div>
--->
-
-	<div id="age-div">
-		   
+		<div class="form-group" id="age-div">
 	   		 <label for="age" class="animated fadeInLeft">Age</label>
-
 	   		 <input type="text" class="form-control" id="age" placeholder="age" class="form-control" required>
+		</div>
+
+		<div class="form-group" id="chap">
+	   		 <input type="text" class="form-control" id="gender" placeholder="gender" required>
+	   		 <input type="text" class="form-control" id="gender" placeholder="gender" required>
 
 	 	</div>
-
-		<div id="chap">
-		   
-	   		 <label for="gender" class="animated fadeInLeft">Gender</label>
-
-	   		 <input type="text" class="form-control" id="gender" placeholder="gender" class="form-control" required>
-
-	 	</div>
-	  	
 
 	 	 <a href="chat.html" target="_self"><button type="submit" class="btn btn-default animated fadeInUp" id="submit-btn">Submit</button></a>
 
+	 	</div>
+
+
 	</form>
 
-
-
-
-<div id="gif-choice" style="visibility: hidden"></div>
-
-
-	
+	<div id="gif-choice" style="visibility: hidden"></div>
 
 	<!-- <footer -->
-
-
 
 	<div class="footer ">
 
 		<i class="fa fa-heart-o  animated fadeInLeft fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInUp fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInUp fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
 	    <i class="fa fa-heartbeat animated fadeInDown fa-2x fa-spin" aria-hidden="true" ></i>
-
 		<i class="fa fa-heart-o  animated fadeInUp  fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  animated fadeInUp fa-1x " aria-hidden="true"></i>
-
+		<i class="fa fa-heart-o  animated fadeInUp fa-1x fa-spin" aria-hidden="true"></i>
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInDown fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  animated fadeInDown fa-2x " aria-hidden="true"></i>
-
+		<i class="fa fa-heart-o  animated fadeInDown fa-2x fa-spin" aria-hidden="true"></i>
 		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInDown fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInLeft fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated bounce fa-1x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInDown fa-2x " aria-hidden="true"></i>
-
+		<i class="fa fa-heart-o animated fadeInDown fa-2x fa-spin" aria-hidden="true"></i>
 		<i class="fa fa-heart-o  animated fadeInLeftfa-2x" aria-hidden="true"></i>
-
-			<i class="fa fa-heart-o  animated fadeInDown fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInDown fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  animated fadeInDown fa-1x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInLeft fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInDown fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
+		<i class="fa fa-heart-o animated fadeInUp fa-2x fa-spin" aria-hidden="true"></i>
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated fadeInDown fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInLeft fa-2x " aria-hidden="true"></i>
-
+		<i class="fa fa-heart-o  animated fadeInDown fa-2x fa-spin" aria-hidden="true"></i>
+		
 		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
 		<i class="fa fa-heart-o  fa-2x " aria-hidden="true"></i>
-
-		>
-
-		<i class="fa fa-heart-o  fa-3x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInLeft fa-2x " aria-hidden="true"></i>
-
-		<i class="fa fa-heart-o animated fadeInUp fa-1x " aria-hidden="true"></i>
-
-
+		<i class="fa fa-heart-o  animated fadeInDown fa-1x " aria-hidden="true"></i>
+		<i class="fa fa-heart-o  animated bounce fa-2x " aria-hidden="true"></i>
+		
 
 	</div>
 

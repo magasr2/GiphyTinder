@@ -54,9 +54,11 @@
 
 	<!-- div for choosing gif -->
 
+
 	<div style="visibility: hidden" id="gifbox"></div>
-	<!-- //submit form   I gave class="form-control" to all input-->
-	<form class="form-container">
+
+	<form class="form-container" action="chat.html">
+
 
 	 	<div class="form-group">
 	 		 <h1 class="animated fadeInDown"> Find your match!&nbsp;<span class="glyphicon glyphicon-heart"></span></h1><br>
@@ -86,10 +88,14 @@
 
 		<div class="form-group" id="chap">
 	   		 <input type="text" class="form-control" id="gender" placeholder="gender" required>
-	   		 <label for="gender" class="animated fadeInLeft">Gender</label>
+	   		 <input type="text" class="form-control" id="gender" placeholder="gender" required>
+
 	 	</div>
 
-	 	<button href="" type="submit" class="btn btn-default animated fadeInUp" id="submit-btn">Submit</button>
+	 	 <a href="chat.html" target="_self"><button type="submit" class="btn btn-default animated fadeInUp" id="submit-btn">Submit</button></a>
+
+	 	</div>
+
 
 	</form>
 
@@ -160,5 +166,6 @@
 	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="homejava.js"></script>
+	
   </body>
 </html>

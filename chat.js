@@ -16,6 +16,7 @@
         }(this);
         return this;
     };
+
     $(function () {
         var getMessageText, message_side, sendMessage;
         message_side = 'right';

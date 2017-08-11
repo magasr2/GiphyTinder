@@ -23,7 +23,7 @@ $("#gif-choice").css("visibility", "visible");
 
 var search = $("#gif").val().trim();
 
- var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=9699c44e26a14adca9d3598a519db277&limit=5";
+ var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + search + "&api_key=9699c44e26a14adca9d3598a519db277&limit=5";
 
 $.ajax({
 	url:queryURL,

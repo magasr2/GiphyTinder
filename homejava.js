@@ -165,7 +165,7 @@ $(document).on("click", ".gif-images",function(){
 //var profilePic = $("#choosing").val();
 		age = $("#age").val().trim();
 		activateFirebase();
-		location.href = location.href.replace("index.html","chat.html");
+		location.href = location.href.load("chat.html");
 	})
 
 
